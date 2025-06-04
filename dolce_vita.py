@@ -51,7 +51,7 @@ class Dolce_vita:
         elif opcion==4:
             self.salir()
         else:
-            print("\n!Opcion incorrecta¡")
+            print("\n!Opcion Incorrecta¡")
         self.menu()
     
     def anadir(self):
@@ -116,8 +116,8 @@ class Dolce_vita:
         print("="*60)
     
     def salir(self):
-        opc = 'no'
-        opc = input('\n¿Desea salir del programa? (si/no): ').lower()
+        opc = 'No'
+        opc = input('\n¿Desea salir del programa? (Si/No): ').lower()
         if opc == 'si':
             print("Saliendo del programa......")
             exit()
