@@ -54,7 +54,7 @@ def main():
                 # Acciones alternativas (no se registran porque no son únicas)
                 random.choice([tomar, singing])(borracho)
 
-            time.sleep(2)  # Pausa entre borrachos
+            time.sleep(2)  # Pausa entre los borrachos
 
         print(f"\n--- Fin del ciclo {ciclo + 1} ---")
         time.sleep(1)
