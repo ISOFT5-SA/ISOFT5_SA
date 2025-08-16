@@ -90,7 +90,7 @@ def registrar_usuario() -> None:
     nombre = pedir_no_vacio("Ingresa tu nombre: ")
     email = pedir_no_vacio("Ingresa tu correo electrónico: ")
     while not validar_email(email):
-        print("⚠️ Correo electrónico inválido. Inténtalo de nuevo.")
+        print("⚠️ Correo electrónico no es valido. Inténtalo de nuevo.")
         print("   Reglas:")
         print("   - Debe tener exactamente un '@'")
         print("   - El dominio debe tener al menos un punto (ej. dominio.com)")
