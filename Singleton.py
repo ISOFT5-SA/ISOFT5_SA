@@ -158,3 +158,4 @@ if __name__ == "__main__":
     r2 = Dolce_vita()
     print(f"¿r1 es r2? -> {r1 is r2}")  # DEberia ser True gracias al singleton
     r1.menu()
+
