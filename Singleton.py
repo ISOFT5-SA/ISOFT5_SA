@@ -149,7 +149,7 @@ class Dolce_vita(metaclass=SingletonMeta):
         else:
             self.menu()
 
-
+#a
 # ------------------------------
 # Ejecución del programa
 # ------------------------------
