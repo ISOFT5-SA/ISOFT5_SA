@@ -37,9 +37,10 @@ class Dolce_vita(metaclass=SingletonMeta):
     # ------------------------------
     # Métodos de validación
     # ------------------------------
+ # Valida que el nombre solo tenga letras y espacios
     def validar_nombre_simple(self, nombre):
         return nombre.replace(' ', '').isalpha()
-
+  # Valida que el correo tenga formato correcto (con '@', '.', y sin caracteres raros)
     def validar_correo_simple(self, correo):
         if not correo:
             return False
@@ -109,6 +110,7 @@ class Dolce_vita(metaclass=SingletonMeta):
         print(f"Correo: {correo}")
         input("\nPresiona Enter para continuar...")
 
+# Muestra en pantalla todos los productos del inventario
     def mostrar(self):
         print("""
            ╔══════════════════╗
